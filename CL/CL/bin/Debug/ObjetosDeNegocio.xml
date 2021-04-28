@@ -1,0 +1,62 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ObjetosDeNegocio
+</name>
+</assembly>
+<members>
+<member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.Find(System.String,System.Object)">
+	<summary>
+ Searches the list for the given property and value
+ </summary>
+	<returns>The found item or nothing</returns>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.FindAll(System.String,System.Object)">
+	<summary>
+ Finds all items that match the given property and value
+ </summary>
+	<returns>A sortable binding list of the found items</returns>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.Select(System.String,System.Object)">
+	<summary>
+ Returns a list of objects found for the given property and value
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.FindCore(System.ComponentModel.PropertyDescriptor,System.Object)">
+	<summary>
+ Searches the list and returns the index of the found item or -1
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.FindCore(System.ComponentModel.PropertyDescriptor,System.Object,System.Int32)">
+	<summary>
+ Searches the list and returns the index of the found item or -1
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.SelectCore(System.ComponentModel.PropertyDescriptor,System.Object)">
+	<summary>
+ Searches for all items that match the criteria
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.ApplySortCore(System.ComponentModel.PropertyDescriptor,System.ComponentModel.ListSortDirection)">
+	<summary>
+ Sorts the list
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.RemoveSortCore">
+	<summary>
+ Clears out the list sort
+ </summary>
+</member><member name="M:ObjetosDeNegocio.CustomSortableBindingList`1.Compare(`0,`0)">
+	<summary>
+ Compares two objects based on the sort property
+ </summary>
+</member><member name="P:ObjetosDeNegocio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member><member name="P:ObjetosDeNegocio.My.Resources.Resources.Culture">
+	<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member><member name="T:ObjetosDeNegocio.My.Resources.Resources">
+	<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+</members>
+</doc>

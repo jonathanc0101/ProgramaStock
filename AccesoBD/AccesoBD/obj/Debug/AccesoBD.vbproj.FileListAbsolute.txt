@@ -1,0 +1,3 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\AccesoBD\AccesoBD\obj\Debug\AccesoBD.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\AccesoBD\AccesoBD\obj\Debug\AccesoBD.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\AccesoBD\AccesoBD\obj\Debug\AccesoBD.vbproj.GenerateResource.Cache

@@ -1,0 +1,62 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\PR.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\PR.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\PR.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.venCargando.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.venGuardando.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.venPrincipal.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PR\PR\obj\Release\PR.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.exe
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\PR.exe
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\PR.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\PR.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\programa stock\PR\PR\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.Resources.resources
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venCargando.resources
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venGuardando.resources
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venPrincipal.resources
+C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.vbproj.GenerateResource.Cache

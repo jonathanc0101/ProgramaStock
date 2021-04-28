@@ -1,0 +1,60 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\PRL.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\PRL.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\PRL.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.venCargando.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.venPrincipal.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PRL\PRL\obj\Release\PRL.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.exe
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\PRL.exe
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\PRL.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\PRL.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.Resources.resources
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.venCargando.resources
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.venPrincipal.resources
+C:\Users\jonathan\Documents\programa stock\PRL\PRL\obj\Release\PRL.vbproj.GenerateResource.Cache

@@ -1,0 +1,13 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\obj\Debug\ObjetosDeNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ObjetosDeNegocio\ObjetosDeNegocio\bin\Debug\AccesoBD.xml

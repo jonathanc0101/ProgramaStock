@@ -1,0 +1,16 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Configuracion\Configuracion\obj\Release\Configuracion.pdb

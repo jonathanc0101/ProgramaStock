@@ -1,0 +1,6 @@
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.vbprojResolveAssemblyReference.cache
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.Resources.resources
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.venCargando.resources
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.venGuardando.resources
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.venPrincipal.resources
+c:\users\jonathan\documents\visual studio 2013\Projects\EMP\EMP\obj\Debug\EMP.vbproj.GenerateResource.Cache

@@ -1,0 +1,60 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\PROVL.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\PROVL.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\PROVL.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.venCargando.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.venPrincipal.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.exe
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\PROVL\PROVL\obj\Release\PROVL.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.exe
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\PROVL.exe
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\PROVL.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\PROVL.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Configuracion.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Iconos.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Configuracion.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Configuracion.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Iconos.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\Iconos.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.Resources.resources
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.venCargando.resources
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.venPrincipal.resources
+C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.vbproj.GenerateResource.Cache

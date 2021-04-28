@@ -1,0 +1,38 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.dll.config
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.CustomTextBoxButton.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.ventanaSalir.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.dll.config
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.pdb
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.Resources.resources
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.CustomTextBoxButton.resources
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.ventanaSalir.resources
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.dll
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.xml
+C:\Users\jonathan\Documents\programa stock\InterfazUsuario\InterfazUsuario\obj\Release\InterfazUsuario.pdb

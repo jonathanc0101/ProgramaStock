@@ -1,0 +1,9 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\bin\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\bin\Release\ComunicacionProcesos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\bin\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\ComunicacionProcesos\ComunicacionProcesos\obj\Release\ComunicacionProcesos.pdb

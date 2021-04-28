@@ -1,0 +1,8 @@
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\bin\Debug\Iconos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\bin\Debug\Iconos.pdb
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\bin\Debug\Iconos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\obj\Debug\Iconos.Resources.resources
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\obj\Debug\Iconos.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\obj\Debug\Iconos.dll
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\obj\Debug\Iconos.xml
+C:\Users\jonathan\Documents\Visual Studio 2013\Projects\Iconos\Iconos\obj\Debug\Iconos.pdb
