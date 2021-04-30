@@ -38,6 +38,21 @@ Public Class productos
         Next
     End Sub
 
+    Public Sub cargarListaProductosBajosDeStock()
+        Dim bdObj As New BDproducto(Servidor, NombreBD, Usuario, Contrasenia)
+        Dim dt As DataTable = bdObj.obtenerTodosBajosDeStock()
+
+        Lista.Clear()
+
+        For Each item As DataRow In dt.Rows
+
+            Dim registro As New producto(Servidor, NombreBD, Usuario, Contrasenia)
+            registro.cargar(item)
+
+            Lista.Add(registro)
+        Next
+    End Sub
+
     Public Sub eliminar(ByVal ParamID As String)
         Try
 

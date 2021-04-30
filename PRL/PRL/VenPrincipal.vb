@@ -12,10 +12,10 @@ Public Class venPrincipal
 
         ' Llamada necesaria para el diseñador.
         InitializeComponent()
+        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
 
         listadoObjetos = ParamListado
         Configuracion = ParamCfg
-        ' Agregue cualquier inicialización después de la llamada a InitializeComponent().
     End Sub
 
     Private Sub venPrincipal_Load(sender As Object, e As EventArgs) Handles MyBase.Load
@@ -157,6 +157,12 @@ Public Class venPrincipal
         Me.Icon = Iconos.My.Resources.programa
     End Sub
 
+
+    Private Sub VerStockFaltante()
+        Dim ventanaStockFaltante As New VenProductosPocoStock(Me.listadoObjetos)
+        ventanaStockFaltante.ShowDialog()
+
+    End Sub
 #End Region
 
 
@@ -274,7 +280,23 @@ Public Class venPrincipal
         ComunicacionProcesos.venta.Nueva()
     End Sub
 
+    Private Sub grilla_RowPrePaint(sender As Object, e As DataGridViewRowPrePaintEventArgs) Handles grilla.RowPrePaint
+        'si el stock es menor al stock minimo entonces pintamos la fila de rojo.
+        'columna 6 stock actual, columna 7 minimo
+        If e.RowIndex < 0 OrElse grilla.Rows(e.RowIndex).IsNewRow Then Return
+
+        'nos fijamos si la tenemos que colorear
+        If CDec(grilla.Rows(e.RowIndex).Cells(6).Value) <= CDec(grilla.Rows(e.RowIndex).Cells(7).Value) Then
+            grilla.Rows(e.RowIndex).DefaultCellStyle.BackColor = Color.OrangeRed
+        End If
+    End Sub
+
+    Private Sub VerStockFaltanteToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles VerStockFaltanteToolStripMenuItem.Click
+        VerStockFaltante()
+    End Sub
+
 #End Region
+
 
 
 End Class

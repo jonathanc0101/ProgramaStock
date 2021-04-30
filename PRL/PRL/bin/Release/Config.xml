@@ -95,7 +95,7 @@
       <Y>0</Y>
       <Ancho>699</Ancho>
       <Alto>744</Alto>
-      <EstadoVentana>0</EstadoVentana>
+      <EstadoVentana>2</EstadoVentana>
     </Ventana>
     <nombreColumnaOrdenada>
     </nombreColumnaOrdenada>
@@ -104,8 +104,8 @@
     </FilasSeleccionadasPorID>
     <indiceDeScroll>0</indiceDeScroll>
     <TipoFiltro>0</TipoFiltro>
-    <FechaDesde>23/04/2021</FechaDesde>
-    <FechaHasta>24/04/2021</FechaHasta>
+    <FechaDesde>28/04/2021</FechaDesde>
+    <FechaHasta>29/04/2021</FechaHasta>
     <CantidadDias>1</CantidadDias>
   </productos>
   <movimientoEntranteProducto>
