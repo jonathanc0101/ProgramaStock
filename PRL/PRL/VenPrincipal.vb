@@ -161,8 +161,10 @@ Public Class venPrincipal
     Private Sub VerStockFaltante()
         Dim ventanaStockFaltante As New VenProductosPocoStock(Me.listadoObjetos)
         ventanaStockFaltante.ShowDialog()
+        actualizar()
 
     End Sub
+
 #End Region
 
 
