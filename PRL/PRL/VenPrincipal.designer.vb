@@ -24,9 +24,9 @@ Partial Class venPrincipal
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(venPrincipal))
-        Dim DataGridViewCellStyle4 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle5 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
-        Dim DataGridViewCellStyle6 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle1 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle2 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
+        Dim DataGridViewCellStyle3 As System.Windows.Forms.DataGridViewCellStyle = New System.Windows.Forms.DataGridViewCellStyle()
         Me.ToolStrip1 = New System.Windows.Forms.ToolStrip()
         Me.ToolStripButton1 = New System.Windows.Forms.ToolStripButton()
         Me.ToolStripButton2 = New System.Windows.Forms.ToolStripButton()
@@ -42,9 +42,22 @@ Partial Class venPrincipal
         Me.EditarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStripSeparator2 = New System.Windows.Forms.ToolStripSeparator()
         Me.EliminarToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevaCompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.NuevaVentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
         Me.TableLayoutPanel1 = New System.Windows.Forms.TableLayoutPanel()
         Me.CustomTextBoxBuscador = New InterfazUsuario.CustomTextBoxButton()
         Me.grilla = New InterfazUsuario.CustomDataGridView()
+        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
+        Me.cmsFondo = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.NuevoToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.cmsFila = New System.Windows.Forms.ContextMenuStrip(Me.components)
+        Me.NuevoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EditarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
+        Me.EliminarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.TimerBuscador = New System.Windows.Forms.Timer(Me.components)
         Me.IdProductoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.DescripcionProductoDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CategoriaDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
@@ -54,27 +67,15 @@ Partial Class venPrincipal
         Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.PrecioUnitarioDataGridViewTextBoxColumn = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.cmsFondo = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.NuevoToolStripMenuItem2 = New System.Windows.Forms.ToolStripMenuItem()
         Me.ObjetosBindingSource = New System.Windows.Forms.BindingSource(Me.components)
-        Me.cmsFila = New System.Windows.Forms.ContextMenuStrip(Me.components)
-        Me.NuevoToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EditarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ToolStripSeparator3 = New System.Windows.Forms.ToolStripSeparator()
-        Me.EliminarToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
-        Me.TimerBuscador = New System.Windows.Forms.Timer(Me.components)
-        Me.CompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.VentaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NuevaCompraToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.NuevaVentaToolStripMenuItem1 = New System.Windows.Forms.ToolStripMenuItem()
+        Me.VerStockFaltanteToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.ToolStrip1.SuspendLayout()
         Me.MenuStrip1.SuspendLayout()
         Me.TableLayoutPanel1.SuspendLayout()
         CType(Me.grilla, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.cmsFondo.SuspendLayout()
-        CType(Me.ObjetosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.cmsFila.SuspendLayout()
+        CType(Me.ObjetosBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ToolStrip1
@@ -130,7 +131,7 @@ Partial Class venPrincipal
         '
         'ArchivoToolStripMenuItem
         '
-        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.ActualizarToolStripMenuItem, Me.ToolStripSeparator1, Me.SalirToolStripMenuItem})
+        Me.ArchivoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VerStockFaltanteToolStripMenuItem, Me.ActualizarToolStripMenuItem, Me.ToolStripSeparator1, Me.SalirToolStripMenuItem})
         Me.ArchivoToolStripMenuItem.Name = "ArchivoToolStripMenuItem"
         Me.ArchivoToolStripMenuItem.Size = New System.Drawing.Size(60, 20)
         Me.ArchivoToolStripMenuItem.Text = "Archivo"
@@ -139,19 +140,19 @@ Partial Class venPrincipal
         '
         Me.ActualizarToolStripMenuItem.Name = "ActualizarToolStripMenuItem"
         Me.ActualizarToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.ActualizarToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.ActualizarToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.ActualizarToolStripMenuItem.Text = "Actualizar"
         '
         'ToolStripSeparator1
         '
         Me.ToolStripSeparator1.Name = "ToolStripSeparator1"
-        Me.ToolStripSeparator1.Size = New System.Drawing.Size(142, 6)
+        Me.ToolStripSeparator1.Size = New System.Drawing.Size(161, 6)
         '
         'SalirToolStripMenuItem
         '
         Me.SalirToolStripMenuItem.Name = "SalirToolStripMenuItem"
         Me.SalirToolStripMenuItem.ShortcutKeyDisplayString = "Esc"
-        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(145, 22)
+        Me.SalirToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
         Me.SalirToolStripMenuItem.Text = "Salir"
         '
         'RegistroToolStripMenuItem
@@ -186,6 +187,32 @@ Partial Class venPrincipal
         Me.EliminarToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.Delete
         Me.EliminarToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.EliminarToolStripMenuItem.Text = "Eliminar"
+        '
+        'CompraToolStripMenuItem
+        '
+        Me.CompraToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaCompraToolStripMenuItem})
+        Me.CompraToolStripMenuItem.Name = "CompraToolStripMenuItem"
+        Me.CompraToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
+        Me.CompraToolStripMenuItem.Text = "Compra"
+        '
+        'NuevaCompraToolStripMenuItem
+        '
+        Me.NuevaCompraToolStripMenuItem.Name = "NuevaCompraToolStripMenuItem"
+        Me.NuevaCompraToolStripMenuItem.Size = New System.Drawing.Size(108, 22)
+        Me.NuevaCompraToolStripMenuItem.Text = "Nueva"
+        '
+        'VentaToolStripMenuItem
+        '
+        Me.VentaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaVentaToolStripMenuItem1})
+        Me.VentaToolStripMenuItem.Name = "VentaToolStripMenuItem"
+        Me.VentaToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
+        Me.VentaToolStripMenuItem.Text = "Venta"
+        '
+        'NuevaVentaToolStripMenuItem1
+        '
+        Me.NuevaVentaToolStripMenuItem1.Name = "NuevaVentaToolStripMenuItem1"
+        Me.NuevaVentaToolStripMenuItem1.Size = New System.Drawing.Size(108, 22)
+        Me.NuevaVentaToolStripMenuItem1.Text = "Nueva"
         '
         'TableLayoutPanel1
         '
@@ -240,6 +267,59 @@ Partial Class venPrincipal
         Me.grilla.Size = New System.Drawing.Size(788, 487)
         Me.grilla.TabIndex = 0
         '
+        'Column1
+        '
+        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
+        Me.Column1.HeaderText = ""
+        Me.Column1.Name = "Column1"
+        Me.Column1.ReadOnly = True
+        Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
+        '
+        'cmsFondo
+        '
+        Me.cmsFondo.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem2})
+        Me.cmsFondo.Name = "cmsFondo"
+        Me.cmsFondo.Size = New System.Drawing.Size(110, 26)
+        '
+        'NuevoToolStripMenuItem2
+        '
+        Me.NuevoToolStripMenuItem2.Name = "NuevoToolStripMenuItem2"
+        Me.NuevoToolStripMenuItem2.Size = New System.Drawing.Size(109, 22)
+        Me.NuevoToolStripMenuItem2.Text = "Nuevo"
+        '
+        'cmsFila
+        '
+        Me.cmsFila.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem1, Me.EditarToolStripMenuItem1, Me.ToolStripSeparator3, Me.EliminarToolStripMenuItem1})
+        Me.cmsFila.Name = "ContextMenuStrip1"
+        Me.cmsFila.Size = New System.Drawing.Size(118, 76)
+        '
+        'NuevoToolStripMenuItem1
+        '
+        Me.NuevoToolStripMenuItem1.Name = "NuevoToolStripMenuItem1"
+        Me.NuevoToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
+        Me.NuevoToolStripMenuItem1.Text = "Nuevo"
+        '
+        'EditarToolStripMenuItem1
+        '
+        Me.EditarToolStripMenuItem1.Name = "EditarToolStripMenuItem1"
+        Me.EditarToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
+        Me.EditarToolStripMenuItem1.Text = "Editar"
+        '
+        'ToolStripSeparator3
+        '
+        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
+        Me.ToolStripSeparator3.Size = New System.Drawing.Size(114, 6)
+        '
+        'EliminarToolStripMenuItem1
+        '
+        Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
+        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
+        Me.EliminarToolStripMenuItem1.Text = "Eliminar"
+        '
+        'TimerBuscador
+        '
+        Me.TimerBuscador.Interval = 400
+        '
         'IdProductoDataGridViewTextBoxColumn
         '
         Me.IdProductoDataGridViewTextBoxColumn.DataPropertyName = "idProducto"
@@ -286,9 +366,9 @@ Partial Class venPrincipal
         'CantidadUnidadesEnStockDataGridViewTextBoxColumn
         '
         Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.DataPropertyName = "cantidadUnidadesEnStock"
-        DataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle4.Format = "N2"
-        Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle4
+        DataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle1.Format = "N2"
+        Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle1
         Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.HeaderText = "Stock actual"
         Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.Name = "CantidadUnidadesEnStockDataGridViewTextBoxColumn"
         Me.CantidadUnidadesEnStockDataGridViewTextBoxColumn.ReadOnly = True
@@ -296,9 +376,9 @@ Partial Class venPrincipal
         'CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn
         '
         Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.DataPropertyName = "cantidadUnidadesMinimasEnStock"
-        DataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle5.Format = "N2"
-        Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle5
+        DataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle2.Format = "N2"
+        Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle2
         Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.HeaderText = "Stock mínimo"
         Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.Name = "CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn"
         Me.CantidadUnidadesMinimasEnStockDataGridViewTextBoxColumn.ReadOnly = True
@@ -306,96 +386,23 @@ Partial Class venPrincipal
         'PrecioUnitarioDataGridViewTextBoxColumn
         '
         Me.PrecioUnitarioDataGridViewTextBoxColumn.DataPropertyName = "precioUnitario"
-        DataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
-        DataGridViewCellStyle6.Format = "N2"
-        DataGridViewCellStyle6.NullValue = Nothing
-        Me.PrecioUnitarioDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle6
+        DataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleRight
+        DataGridViewCellStyle3.Format = "N2"
+        DataGridViewCellStyle3.NullValue = Nothing
+        Me.PrecioUnitarioDataGridViewTextBoxColumn.DefaultCellStyle = DataGridViewCellStyle3
         Me.PrecioUnitarioDataGridViewTextBoxColumn.HeaderText = "Precio U."
         Me.PrecioUnitarioDataGridViewTextBoxColumn.Name = "PrecioUnitarioDataGridViewTextBoxColumn"
         Me.PrecioUnitarioDataGridViewTextBoxColumn.ReadOnly = True
-        '
-        'Column1
-        '
-        Me.Column1.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill
-        Me.Column1.HeaderText = ""
-        Me.Column1.Name = "Column1"
-        Me.Column1.ReadOnly = True
-        Me.Column1.Resizable = System.Windows.Forms.DataGridViewTriState.[False]
-        '
-        'cmsFondo
-        '
-        Me.cmsFondo.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem2})
-        Me.cmsFondo.Name = "cmsFondo"
-        Me.cmsFondo.Size = New System.Drawing.Size(110, 26)
-        '
-        'NuevoToolStripMenuItem2
-        '
-        Me.NuevoToolStripMenuItem2.Name = "NuevoToolStripMenuItem2"
-        Me.NuevoToolStripMenuItem2.Size = New System.Drawing.Size(109, 22)
-        Me.NuevoToolStripMenuItem2.Text = "Nuevo"
         '
         'ObjetosBindingSource
         '
         Me.ObjetosBindingSource.DataSource = GetType(ObjetosDeNegocio.producto)
         '
-        'cmsFila
+        'VerStockFaltanteToolStripMenuItem
         '
-        Me.cmsFila.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevoToolStripMenuItem1, Me.EditarToolStripMenuItem1, Me.ToolStripSeparator3, Me.EliminarToolStripMenuItem1})
-        Me.cmsFila.Name = "ContextMenuStrip1"
-        Me.cmsFila.Size = New System.Drawing.Size(118, 76)
-        '
-        'NuevoToolStripMenuItem1
-        '
-        Me.NuevoToolStripMenuItem1.Name = "NuevoToolStripMenuItem1"
-        Me.NuevoToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
-        Me.NuevoToolStripMenuItem1.Text = "Nuevo"
-        '
-        'EditarToolStripMenuItem1
-        '
-        Me.EditarToolStripMenuItem1.Name = "EditarToolStripMenuItem1"
-        Me.EditarToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
-        Me.EditarToolStripMenuItem1.Text = "Editar"
-        '
-        'ToolStripSeparator3
-        '
-        Me.ToolStripSeparator3.Name = "ToolStripSeparator3"
-        Me.ToolStripSeparator3.Size = New System.Drawing.Size(114, 6)
-        '
-        'EliminarToolStripMenuItem1
-        '
-        Me.EliminarToolStripMenuItem1.Name = "EliminarToolStripMenuItem1"
-        Me.EliminarToolStripMenuItem1.Size = New System.Drawing.Size(117, 22)
-        Me.EliminarToolStripMenuItem1.Text = "Eliminar"
-        '
-        'TimerBuscador
-        '
-        Me.TimerBuscador.Interval = 400
-        '
-        'CompraToolStripMenuItem
-        '
-        Me.CompraToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaCompraToolStripMenuItem})
-        Me.CompraToolStripMenuItem.Name = "CompraToolStripMenuItem"
-        Me.CompraToolStripMenuItem.Size = New System.Drawing.Size(62, 20)
-        Me.CompraToolStripMenuItem.Text = "Compra"
-        '
-        'VentaToolStripMenuItem
-        '
-        Me.VentaToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NuevaVentaToolStripMenuItem1})
-        Me.VentaToolStripMenuItem.Name = "VentaToolStripMenuItem"
-        Me.VentaToolStripMenuItem.Size = New System.Drawing.Size(48, 20)
-        Me.VentaToolStripMenuItem.Text = "Venta"
-        '
-        'NuevaCompraToolStripMenuItem
-        '
-        Me.NuevaCompraToolStripMenuItem.Name = "NuevaCompraToolStripMenuItem"
-        Me.NuevaCompraToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.NuevaCompraToolStripMenuItem.Text = "Nueva"
-        '
-        'NuevaVentaToolStripMenuItem1
-        '
-        Me.NuevaVentaToolStripMenuItem1.Name = "NuevaVentaToolStripMenuItem1"
-        Me.NuevaVentaToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
-        Me.NuevaVentaToolStripMenuItem1.Text = "Nueva"
+        Me.VerStockFaltanteToolStripMenuItem.Name = "VerStockFaltanteToolStripMenuItem"
+        Me.VerStockFaltanteToolStripMenuItem.Size = New System.Drawing.Size(164, 22)
+        Me.VerStockFaltanteToolStripMenuItem.Text = "Ver stock faltante"
         '
         'venPrincipal
         '
@@ -416,8 +423,8 @@ Partial Class venPrincipal
         Me.TableLayoutPanel1.ResumeLayout(False)
         CType(Me.grilla, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsFondo.ResumeLayout(False)
-        CType(Me.ObjetosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.cmsFila.ResumeLayout(False)
+        CType(Me.ObjetosBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -468,4 +475,5 @@ Partial Class venPrincipal
     Friend WithEvents NuevaCompraToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents VentaToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents NuevaVentaToolStripMenuItem1 As System.Windows.Forms.ToolStripMenuItem
+    Friend WithEvents VerStockFaltanteToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
 End Class
