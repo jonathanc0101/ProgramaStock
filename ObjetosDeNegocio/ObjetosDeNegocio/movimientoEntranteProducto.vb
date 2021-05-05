@@ -109,7 +109,20 @@ Public Class movimientoEntranteProducto
         End If
     End Sub
 
+    Public Sub borrar(ByRef guardador As Guardador)
+        If idMovimientoEntranteProducto <> 0 Then
 
+            Try
+                Dim bdObj As New BDmovimientoEntranteProducto(Servidor, NombreBD, Usuario, Contrasenia)
+
+                bdObj.borrar(guardador.mySqlCommand, guardador.indiceParametro,
+                                                    idMovimientoEntranteProducto)
+
+            Catch ex As Exception
+                Throw New Exception("No se pudo eliminar: movimientoEntranteProducto.")
+            End Try
+        End If
+    End Sub
 
     Public Sub guardar()
 

@@ -195,8 +195,8 @@ Public Class compra
 
     End Sub
 
-    Public Sub eliminarItemDeCompra(item As movimientoEntranteProducto)
-        movimientosEntrantes.eliminar(item)
+    Public Sub eliminarItemDeCompra(ByRef item As movimientoEntranteProducto)
+        movimientosEntrantes.aniadirAColaEliminar(item)
     End Sub
 
     Public Sub recalcularTotal()

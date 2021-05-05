@@ -91,7 +91,8 @@ Public Class BDcompra
         "`idProveedor`  = @idProveedor" & indiceParametro & ", " & _
         "`montoTotal`  = @montoTotal" & indiceParametro & ", " & _
         "`Descripcion` = @Descripcion" & indiceParametro & " " & _
-        " WHERE `idCompra` = @idCompra" & indiceParametro & ";"
+        " WHERE `idCompra` = @idCompra" & indiceParametro & ";" & _
+        "  SET @idCompra = @idCompra" & indiceParametro & ";"
 
         mySqlCommand.Parameters.AddWithValue("@fecha" & indiceParametro, ParamFecha)
         mySqlCommand.Parameters.AddWithValue("@anulada" & indiceParametro, ParamAnulada)

@@ -104,8 +104,13 @@
     </FilasSeleccionadasPorID>
     <indiceDeScroll>0</indiceDeScroll>
     <TipoFiltro>0</TipoFiltro>
+<<<<<<< HEAD
+    <FechaDesde>04/05/2021</FechaDesde>
+    <FechaHasta>05/05/2021</FechaHasta>
+=======
     <FechaDesde>29/04/2021</FechaDesde>
     <FechaHasta>30/04/2021</FechaHasta>
+>>>>>>> d397933dda792f0d3d81e81c98547431fee9c8de
     <CantidadDias>1</CantidadDias>
   </productos>
   <movimientoEntranteProducto>
