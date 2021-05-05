@@ -58,3 +58,6 @@ C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.Resourc
 C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.venCargando.resources
 C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.venPrincipal.resources
 C:\Users\jonathan\Documents\programa stock\PROVL\PROVL\obj\Release\PROVL.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PROVL\PROVL\obj\Release\PROVL.exe
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PROVL\PROVL\obj\Release\PROVL.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PROVL\PROVL\obj\Release\PROVL.pdb

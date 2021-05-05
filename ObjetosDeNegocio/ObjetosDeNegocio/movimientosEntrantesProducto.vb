@@ -4,6 +4,7 @@ Imports AccesoBD
 Public Class movimientosEntrantesProducto
 
     Property Lista As CustomSortableBindingList(Of movimientoEntranteProducto)
+    Property ListaAEliminar As List(Of movimientoEntranteProducto)
 
     Private Servidor As String
     Private NombreBD As String
@@ -86,10 +87,33 @@ Public Class movimientosEntrantesProducto
 
     End Sub
 
-    Public Sub eliminar(ParamRegistro As movimientoEntranteProducto)
+    Public Sub eliminar(ByRef ParamRegistro As movimientoEntranteProducto)
+        If Not (ParamRegistro.idMovimientoEntranteProducto = 0) Then
+            ParamRegistro.borrar()
+        End If
         Lista.Remove(ParamRegistro)
     End Sub
 
+    Public Sub aniadirAColaEliminar(ByRef ParamRegistro As movimientoEntranteProducto)
+        ListaAEliminar.Add(ParamRegistro)
+
+        buscarYEliminarEnLista(ParamRegistro)
+    End Sub
+
+    Public Sub buscarYEliminarEnLista(byval ParamRegistro As movimientoEntranteProducto)
+        Dim listaFiltrada As New CustomSortableBindingList(Of movimientoEntranteProducto)
+
+        listaFiltrada.AddRange(Lista.Where(Function(x) x.idMovimientoEntranteProducto = ParamRegistro.idMovimientoEntranteProducto And _
+                                            x.idProducto = ParamRegistro.idProducto And _
+                                            x.cantidadEntradaProducto = ParamRegistro.cantidadEntradaProducto And _
+                                            x.valorEntradaProducto = ParamRegistro.valorEntradaProducto And _
+                                            (x.valorEntradaProducto / x.cantidadEntradaProducto) = (ParamRegistro.valorEntradaProducto / ParamRegistro.cantidadEntradaProducto)
+                                            ).ToList)
+
+        If listaFiltrada.Count = 1 Then
+            Lista.Remove(listaFiltrada.Item(0))
+        End If
+    End Sub
     Friend Function calcularTotal() As Decimal
         Dim total As Decimal = 0.0
 
@@ -102,7 +126,7 @@ Public Class movimientosEntrantesProducto
     End Function
 
 
-    Public Sub guardarListado(guardador As Guardador)
+    Public Sub guardarListado(ByRef guardador As Guardador)
         For Each movimiento As movimientoEntranteProducto In Lista
             If movimiento.idMovimientoEntranteProducto = 0 Then
                 movimiento.agregar(guardador)
@@ -110,10 +134,15 @@ Public Class movimientosEntrantesProducto
                 movimiento.actualizar(guardador)
             End If
         Next
+
+        For Each movimiento As movimientoEntranteProducto In ListaAEliminar
+            movimiento.borrar(guardador)
+        Next
     End Sub
 
     Public Sub resetear()
         Lista = New CustomSortableBindingList(Of movimientoEntranteProducto)
+        ListaAEliminar = New List(Of movimientoEntranteProducto)
     End Sub
 
     Public Sub nuevo(item As movimientoEntranteProducto)
@@ -136,7 +165,7 @@ Public Class movimientosEntrantesProducto
             For Each movimiento As movimientoEntranteProducto In listaFiltrada
                 Lista.Remove(movimiento)
                 If movimiento.idMovimientoEntranteProducto <> 0 Then
-                    movimiento.borrar()
+                    Me.aniadirAColaEliminar(movimiento)
                 End If
             Next
             'añadimos el item ya fusionado
@@ -172,7 +201,7 @@ Public Class movimientosEntrantesProducto
 
                 Lista.Remove(movimiento)
                 If movimiento.idMovimientoEntranteProducto <> 0 Then
-                    movimiento.borrar()
+                    Me.aniadirAColaEliminar(movimiento)
                 End If
 
             Next

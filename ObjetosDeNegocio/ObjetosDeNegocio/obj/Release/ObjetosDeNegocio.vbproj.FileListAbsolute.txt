@@ -24,3 +24,16 @@ C:\Users\jonathan\Documents\programa stock\ObjetosDeNegocio\ObjetosDeNegocio\bin
 C:\Users\jonathan\Documents\programa stock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\MySql.Data.dll
 C:\Users\jonathan\Documents\programa stock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\AccesoBD.pdb
 C:\Users\jonathan\Documents\programa stock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\ObjetosDeNegocio.pdb
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\AccesoBD.dll
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\MySql.Data.dll
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\AccesoBD.pdb
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\bin\Release\AccesoBD.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.vbprojResolveAssemblyReference.cache
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.Resources.resources
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.dll
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\ObjetosDeNegocio\ObjetosDeNegocio\obj\Release\ObjetosDeNegocio.pdb
