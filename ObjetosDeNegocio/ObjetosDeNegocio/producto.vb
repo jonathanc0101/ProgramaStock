@@ -12,6 +12,14 @@ Public Class producto
     Property descripcionProducto As String
     Property categoria As String
     Property idProducto As Integer
+    Public Property cantidadUnidadesFaltantes() As Decimal
+        Get
+            Return cantidadUnidadesMinimasEnStock - cantidadUnidadesEnStock
+        End Get
+        Set(value As Decimal)
+        End Set
+    End Property
+
 
     Private Servidor As String
     Private NombreBD As String

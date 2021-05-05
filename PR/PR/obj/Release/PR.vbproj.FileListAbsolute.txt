@@ -60,3 +60,6 @@ C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venCargando.reso
 C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venGuardando.resources
 C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.venPrincipal.resources
 C:\Users\jonathan\Documents\programa stock\PR\PR\obj\Release\PR.vbproj.GenerateResource.Cache
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PR\PR\obj\Release\PR.exe
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PR\PR\obj\Release\PR.xml
+C:\Users\jonathan\Documents\programa stock carpeta final git\ProgramaStock\PR\PR\obj\Release\PR.pdb

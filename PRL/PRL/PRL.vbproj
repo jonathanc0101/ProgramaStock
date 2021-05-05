@@ -114,6 +114,12 @@
     <Compile Include="VenPrincipal.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="VenProductosPocoStock.Designer.vb">
+      <DependentUpon>VenProductosPocoStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="VenProductosPocoStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="My Project\Resources.resx">
@@ -127,6 +133,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="VenPrincipal.resx">
       <DependentUpon>VenPrincipal.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VenProductosPocoStock.resx">
+      <DependentUpon>VenProductosPocoStock.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

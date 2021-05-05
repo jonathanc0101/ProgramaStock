@@ -13,6 +13,14 @@ Public Class BDproducto
         Return bd.obtenerDatos(consulta)
     End Function
 
+    Public Function obtenerTodosBajosDeStock() As DataTable
+
+        Dim query As String
+        query = consulta() & " and  cantidadUnidadesMinimasEnStock >= cantidadUnidadesEnStock"
+
+        Return bd.obtenerDatos(query)
+    End Function
+
     Public Function obtenerPorID(paramId As Integer) As DataTable
 
         Dim mySqlCommand As New MySqlCommand
@@ -110,7 +118,7 @@ Public Class BDproducto
         sqlcommand.CommandText &= "UPDATE `producto` SET IS_DELETED = 'Y' " & _
         " WHERE idProducto = @idProducto" & indiceParametro & ";"
 
-        sqlcommand.Parameters.AddWithValue("@idProducto" & indiceParametro, ParamIdproducto)
+        sqlcommand.Parameters.AddWithValue("@idProducto" & indiceParametro, ParamidProducto)
 
         indiceParametro += 1
     End Sub
